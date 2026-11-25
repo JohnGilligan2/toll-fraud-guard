@@ -1,0 +1,21 @@
+{
+  "_comment": "Example values only. Addresses are documentation ranges (RFC 5737); country codes XA-XC are ISO 3166 user-assigned codes, used so that no real country list ships. Replace everything with your own.",
+  "high_risk_countries": ["XA", "XB", "XC"],
+  "country_scores": {"US": 1, "CA": 1, "XA": 9, "XB": 8, "XC": 8},
+  "default_country_score": 5,
+  "provider_watchlist": ["shady vps co"],
+  "org_allowlist": ["partner gateway inc"],
+  "infra_ips": ["192.0.2.250"],
+  "infra_prefixes": ["192.0.2.24"],
+  "push_relay_ua_patterns": ["examplesoftphone push"],
+  "trusted_push_providers": ["example cloud"],
+  "device_allowlist": [],
+  "registration_grace_seconds": 45,
+  "call_window_minutes": 5,
+  "call_flag_floor": 5,
+  "call_baseline_domain": "busy-callcenter.example",
+  "call_include_international": true,
+  "call_default_home_state": "CA",
+  "call_home_state_by_domain": {"northside-law.example": "NY"},
+  "call_exclude_domains": []
+}

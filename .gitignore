@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Real config, state and ledger hold your allowlists, customer domains and
+# who-locked-what. They stay local and are never committed.
+config.json
+*.local.json
+state*.json
+ledger*.jsonl
